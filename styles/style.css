@@ -1,0 +1,517 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+nav{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    margin-top: 0;
+}
+nav h6{
+    width: 50%;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+nav h6 span{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 0;
+}
+nav ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+.cover-area{
+    height: 500px;
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px auto;
+    background-image: url("../image/cover.png") ;
+    background-size: cover;
+    position: relative;
+
+}
+.cover-content{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 700px;
+}
+.cover-content h1{
+    color: #ffffff;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    text-shadow: 5px 5px 5px black;
+}
+.cover-content p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px; 
+    text-shadow: 5px 5px 5px black;
+}
+.input-area{
+    border-radius: 8px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.input-area input , select{
+    padding: 10px 20px;
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    /* color: rgba(19, 19, 24, 0.50); */
+    font-size: 16px;
+    font-weight: 400;
+}
+.find-now-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.find-now-btn:hover{
+    background-color:  #c75217ec;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+
+            /*main-area-start-here*/
+
+main{
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+        /* popular-tour-area-style-here */
+
+.popular-tour-area{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    /* align-items: center; */
+}
+.popular-tour-content h1{
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-tour-content p , li{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.read-more-btn{
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px 35px;
+    border: 0;
+}
+
+/* Choose Destination Area style here */
+
+.choose-destination-area{
+    margin-top: 100px;
+}
+
+.destination-title h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.destination-title p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.top-destination{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.top-destination img{
+    width: 49%;
+}
+.middle-destination{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.na{
+    width: 50%;
+}
+.normal-destination{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.ban{
+    width: 42%;
+}
+
+
+         /*choose us area style here*/
+
+.choose-us-area{
+    margin-top: 100px;
+}
+.choose-us-area h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.choose-us-area p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.choose-proved{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.choose-proved img{
+    width: 100px;
+}
+.choose-proved h2{
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+.handpicked-hotels{
+    width: 45%;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.service{
+    width: 45%;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.choose-proved p{
+    color: #5A5A5D;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.guarantee{
+    width: 50%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.guarantee img{
+    width: 100px;
+}
+.guarantee h2{
+    text-align: left;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+.guarantee p{
+    text-align: left;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+/* Discounts area style here */
+
+.discounts-part-one{
+    background-image: url("../image/Group\ 444.jpg");
+    background-size: cover;
+    height: 430px;
+    border-radius: 16px;
+    padding-top: 50px;
+    margin: 50px auto;
+}
+.discounts-part-one-content{
+    width: 50%;
+    height: 70%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px 0px 0px 50px;
+    margin-left: 450px;
+}
+.discounts-part-one-content p{
+    color: #5A5A5D;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.discounts-part-one-content h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.discounts-part-one-content h3{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+.book-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px 25px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+}
+.discounts-part-two{
+    margin: 50px auto;
+    background-image: url("../image/Group\ 40.png");
+    background-size: cover;
+    height: 430px;
+    border-radius: 16px;
+    padding-top: 50px;
+}
+.discounts-part-two-content{
+    width: 50%;
+    height: 70%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px 0px 0px 50px;
+    margin-left:50px;
+}
+
+.discounts-part-three{
+    background-image: url("../image/Group\ 444.jpg");
+    background-size: cover;
+    height: 430px;
+    border-radius: 16px;
+    padding-top: 50px;
+    margin: 50px auto;
+}
+
+#see-all-btn{
+    text-align: center;
+    margin-left: 500px;
+}
+            /* Perfect Place start here */
+
+
+.perfect-place-area{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.place-content{
+    width: 45%;
+}
+.place-content h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    margin: 0;
+}
+.place-content p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+}
+.place-content li{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0;
+}
+.place-video{
+    width: 45%;
+}
+.place-video video{
+    width: 100%;
+    height: 100%;
+}
+
+
+            /* Newsletter area start here */
+
+
+.newsletter-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.newsletter-form{
+    width: 45%;
+    padding: 30px 10px 30px 0px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.newsletter-form form{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.newsletter-form h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+.newsletter-form p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.newsletter-form  input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px 180px 16px 20px;
+    margin: 10px auto;
+    border: 0;
+}
+.newsletter-image{
+    height: 400px;
+    width: 45%;
+    border-radius: 16px;
+    background-image: url("../image/Rectangle\ 8\ \(1\).png");
+    background-size: cover;
+}
+#subcribe-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px 173px;
+}
+.save-templeate{
+    border-radius: 16px;
+    background: #FF5400;
+    width: 250px;
+    height: 100px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    margin-top: 48%;
+    margin-left: 53%;
+}
+.save-templeate h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+}
+.save-templeate h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+}
