@@ -1,5 +1,11 @@
    /* responsive mobile device */
 
+
+
+
+
+                     /* small phone device responsive web page design here */
+
 @media screen and (max-width: 320px) {
     nav ul {
         display: none;
@@ -37,12 +43,6 @@
         font-size: 16px;
     }
 
-
-
-    /* main-section-star-here */
-
-
-    /* Our Popular Tours area */
     .popular-tour-area {
         margin-top: 25px;
         justify-content: space-between;
@@ -55,7 +55,6 @@
     .popular-tour-content h1 {
         font-size: 25px;
     }
-    /* Choose Destination Area */
 
     .choose-destination-area {
         margin-top: 35px;
@@ -92,9 +91,6 @@
     }
 
 
-
-
-    /* Choose Us Area */
 
 
     .choose-us-area {
@@ -151,8 +147,6 @@
         margin-left: 0px;
     }
 
-    /* Discounts area start here */
-
     .discounts-part-one {
         height: 423px;
         padding-top: 116px;
@@ -201,7 +195,6 @@
         margin-left: 65px;
     }
 
-        /* Perfect Place start here */
 
 
     .perfect-place-area {
@@ -236,9 +229,6 @@
     }
 
 
-
-
-    /* Newsletter area start here */
 
     .newsletter-area {
         margin-top: 50px;
@@ -296,7 +286,7 @@
 
 
 
-
+                                /* small phone 2x device responsive web page design here */
 
 
 
@@ -306,7 +296,6 @@
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
 
-    /* header-area-start-here */
     body{
         max-width: 375px;
         margin: 0 auto;
@@ -351,10 +340,7 @@
 
 
 
-    /* main-section-star-here */
 
-
-    /* Our Popular Tours area */
     .popular-tour-area {
         margin-top: 25px;
         justify-content: space-between;
@@ -365,7 +351,6 @@
     }
 
 
-    /* Choose Destination Area */
 
     .choose-destination-area {
         margin-top: 35px;
@@ -404,7 +389,6 @@
 
 
 
-    /* Choose Us Area */
 
 
     .choose-us-area {
@@ -461,7 +445,6 @@
         margin-left: 0px;
     }
 
-    /* Discounts area start here */
 
     .discounts-part-one {
         height: 423px;
@@ -511,8 +494,6 @@
         margin-left: 86px;
     }
 
-        /* Perfect Place start here */
-
 
     .perfect-place-area {
         margin-top: 40px;
@@ -548,7 +529,6 @@
 
 
 
-    /* Newsletter area start here */
 
     .newsletter-area {
         margin-top: 50px;
@@ -600,7 +580,7 @@
 
 
 
-
+                              /* medium phone device responsive web page design here */
 
 
 
@@ -609,7 +589,6 @@
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
 
-    /* header-area-start-here */
 
 
     nav ul {
@@ -650,10 +629,7 @@
 
 
 
-    /* main-section-star-here */
 
-
-    /* Our Popular Tours area */
     .popular-tour-area {
         margin-top: 25px;
         justify-content: space-between;
@@ -663,8 +639,6 @@
         width: 100%;
     }
 
-
-    /* Choose Destination Area */
 
     .choose-destination-area {
         margin-top: 35px;
@@ -703,7 +677,6 @@
 
 
 
-    /* Choose Us Area */
 
 
     .choose-us-area {
@@ -760,7 +733,6 @@
         margin-left: 0px;
     }
 
-    /* Discounts area start here */
 
     .discounts-part-one {
         height: 423px;
@@ -810,8 +782,6 @@
         margin-left: 105px;
     }
 
-        /* Perfect Place start here */
-
 
     .perfect-place-area {
         margin-top: 40px;
@@ -846,8 +816,6 @@
 
 
 
-
-    /* Newsletter area start here */
 
     .newsletter-area {
         margin-top: 50px;
@@ -898,14 +866,13 @@
 
 
 
-
+                            /* large phone device responsive web page design here */
 
 
 
 
 @media screen and (min-width :426px) and (max-width: 600px) {
-    
-    /* header-area-start-here */
+
 
 
     nav ul {
@@ -946,10 +913,6 @@
 
 
 
-    /* main-section-star-here */
-
-
-    /* Our Popular Tours area */
     .popular-tour-area {
         margin-top: 25px;
         justify-content: space-between;
@@ -960,7 +923,6 @@
     }
 
 
-    /* Choose Destination Area */
 
     .choose-destination-area {
         margin-top: 35px;
@@ -997,9 +959,6 @@
     }
 
 
-
-
-    /* Choose Us Area */
 
 
     .choose-us-area {
@@ -1056,8 +1015,6 @@
         margin-left: 0px;
     }
 
-    /* Discounts area start here */
-
     .discounts-part-one {
         height: 423px;
         padding-top: 116px;
@@ -1106,8 +1063,6 @@
         margin-left: 170px;
     }
 
-        /* Perfect Place start here */
-
 
     .perfect-place-area {
         margin-top: 40px;
@@ -1142,8 +1097,6 @@
 
 
 
-
-    /* Newsletter area start here */
 
     .newsletter-area {
         margin-top: 50px;
