@@ -1,21 +1,14 @@
    /* responsive mobile device */
 
-.hide{
-    display: none;
-}
-
-
-
-
-
-
-
-
 
 
 @media screen and (max-width: 375px) {
 
     /* header-area-start-here */
+    body{
+        max-width: 375px;
+        margin: 0 auto;
+    }
 
 
     nav ul {

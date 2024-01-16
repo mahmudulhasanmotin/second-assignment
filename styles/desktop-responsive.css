@@ -1,0 +1,51 @@
+
+
+
+
+
+@media screen and (min-width: 992px) and (max-width :1024px) {
+    .na {
+        width: 26%;
+    }
+    .band{
+        width: 57%;
+    }
+    .discounts-part-one-content {
+        margin-left: 355px;
+    }
+    #see-all-btn {
+        text-align: center;
+        margin-left: 353px;
+    }
+    .newsletter-form form {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    .newsletter-form h1 {
+        margin-left: 15px;
+    }
+    .newsletter-form p {
+        margin-left: 15px;
+    }
+    hr {
+        width: 90%;
+        margin: auto;
+    }
+    .newsletter-form input {
+        margin-left: 15px;
+        padding: 16px 125px 16px 20px;
+    }
+    #subcribe-btn {
+        padding: 15px 145px;
+    }
+    .save-templeate {
+        margin-top: 60%;
+        margin-left: 35%;
+    }
+        
+    
+}
+
+
+
