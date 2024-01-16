@@ -236,18 +236,24 @@
         gap: 50px;
     }
     .newsletter-form {
-        width: 100%;
+        width: 95%;
     }
     .newsletter-form form {
         width: 90%;
         height: 90%;
         margin: auto;
     }
-    .newsletter-form input {
-        padding: 16px 0px 16px 20px;
+    .newsletter-form input[type=text] {
+        padding: 13px 13px;
+        width: 95%;
+    }
+    .newsletter-form input[type=email]{
+        padding: 13px 13px;
+        width: 95%;
     }
     #subcribe-btn {
-        padding: 15px 82px;
+        width: 105%;
+        padding: 10px 0px;
     }
     .newsletter-image {
         width: 100%;
@@ -301,7 +307,6 @@
         margin: 0 auto;
     }
 
-
     nav ul {
         display: none;
     }
@@ -310,7 +315,7 @@
     }
     nav {
         width: 90%;
-        margin:0 auto:
+        margin:0 auto;
     }
     .cover-content h1 {
         font-size: 30px;
@@ -428,7 +433,7 @@
         padding: 0px;
     }
     .guarantee {
-        width: 84%;
+        width: 80%;
         margin: 30px auto;
     }
     .guarantee img {
@@ -536,18 +541,23 @@
         gap: 50px;
     }
     .newsletter-form {
-        width: 100%;
+        width: 95%;
     }
     .newsletter-form form {
         width: 90%;
         height: 90%;
         margin: auto;
     }
-    .newsletter-form input {
-        padding: 16px 50px 16px 20px;
+    .newsletter-form input[type=text] {
+        padding: 13px 13px;
+        width: 95%;
+    }
+    .newsletter-form input[type=email]{
+        padding: 13px 13px;
+        width: 95%;
     }
     #subcribe-btn {
-        padding: 15px 109px;
+        padding: 15px 102px;
     }
     .newsletter-image {
         width: 100%;
@@ -823,18 +833,23 @@
         gap: 50px;
     }
     .newsletter-form {
-        width: 100%;
+        width: 95%;
     }
     .newsletter-form form {
         width: 90%;
         height: 90%;
         margin: auto;
     }
-    .newsletter-form input {
-        padding: 16px 80px 16px 20px;
+    .newsletter-form input[type=text] {
+        padding: 13px 13px;
+        width: 95%;
+    }
+    .newsletter-form input[type=email]{
+        padding: 13px 13px;
+        width: 95%;
     }
     #subcribe-btn {
-        padding: 15px 123px;
+        padding: 15px;
     }
     .newsletter-image {
         width: 100%;
@@ -1111,9 +1126,13 @@
         height: 90%;
         margin: auto;
     }
-    .newsletter-form input {
-        width: 80%;
-        padding: 16px 80px 16px 20px;
+    .newsletter-form input[type=text] {
+        padding: 13px 13px;
+        width: 95%;
+    }
+    .newsletter-form input[type=email]{
+        padding: 13px 13px;
+        width: 95%;
     }
     #subcribe-btn {
         width: 100%;

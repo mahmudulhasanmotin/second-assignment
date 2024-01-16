@@ -30,15 +30,16 @@
         margin-left: 15px;
     }
     hr {
-        width: 90%;
+        width: 95%;
         margin: auto;
     }
     .newsletter-form input {
-        margin-left: 15px;
-        padding: 16px 125px 16px 20px;
+        margin-left: 12px;
+        width: 90%;
     }
-    #subcribe-btn {
-        padding: 15px 145px;
+    #subcribe-btn{
+        padding: 15px 1px;
+        width: 93%;
     }
     .save-templeate {
         margin-top: 60%;
